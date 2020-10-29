@@ -13,9 +13,9 @@
                         </article>                    
                     </div>           
                 </section><!--End wpContent-->
-                <?php include(get_theme_root().'/'.get_option('stylesheet').'/templates-parts/main-flexible-content.php');?>                    
+                <?php include(get_theme_root().'/'.get_option('stylesheet').'/template-parts/main-flexible-content.php');?>                    
             <?php else: ?>
-                <?php include(get_theme_root().'/'.get_option('stylesheet').'/templates-parts/main-flexible-content.php');?>                          
+                <?php include(get_theme_root().'/'.get_option('stylesheet').'/template-parts/main-flexible-content.php');?>                          
         <?php endif; ?>        
     </div><!--End Content-->
 <?php get_footer(); ?>
