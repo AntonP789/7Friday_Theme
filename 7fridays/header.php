@@ -15,6 +15,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+    <?php include( 'template-parts/css-parts/header-css.php' ); ?>
     <header>
         <div class="fixing">
             <div class="container">
@@ -39,4 +40,3 @@
             </div><!--End container-fluid-->
         </div><!--End fixing-->
     </header>
-<?php include( 'template-parts/css-parts/header-css.php' ); ?>
