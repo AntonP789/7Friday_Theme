@@ -20,7 +20,7 @@ add_action( 'wp_enqueue_scripts', 'enqueue_styles' );
 function enqueue_scripts() {
     
     wp_deregister_script( 'jquery' );
-    wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js');
+    wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js');
     wp_enqueue_script( 'jquery' );                  
     
     wp_register_script( 'custom_js', get_stylesheet_directory_uri() . '/js/custom.js' );
