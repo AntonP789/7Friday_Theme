@@ -63,7 +63,11 @@ jQuery(document).ready(function(){
         });
     }
     if(jQuery(window).innerWidth() > 600){
-        var topHP = 0 + jQuery('#wpadminbar').height();    
+        if ($('body').hasClass('admin-bar')) {
+            var topHP = 0 + jQuery('#wpadminbar').height();
+        } else {
+            var topHP = 0;
+        }
     }else{
         var topHP = 0; 
     }
