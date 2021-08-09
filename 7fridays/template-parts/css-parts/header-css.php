@@ -7,9 +7,10 @@
     --second_hover_color: #fff;
     --title_color: #424242;
     --text_color: #aaa;
+    --font: 'Open Sans';
 }
 body{
-    font: 400 14px/1.8 sans-serif;
+    font: 400 14px/1.8 var(--font);
     color: var(--text_color);
     margin: 0;
 }
@@ -20,28 +21,28 @@ body{
     max-width: 1200px;
 }
 h1 {
-    font: 600 72px sans-serif;
+    font: 600 72px var(--font);
     color: var(--title_color);
 }
 h2 {
-    font: 400 50px sans-serif;
+    font: 400 50px var(--font);
     color: var(--title_color);
 }
 h3 {
-    font: 400 38px sans-serif;
+    font: 400 38px var(--font);
     color: var(--title_color);
 }
 h4 {
-    font: 400 28px sans-serif;
+    font: 400 28px var(--font);
     color: var(--title_color);
     font-weight: 700;
 }
 h5 {
-    font: 400 24px sans-serif;
+    font: 400 24px var(--font);
     color: var(--title_color);
 }
 h6 {
-    font: 400 18px sans-serif;
+    font: 400 18px var(--font);
     color: var(--title_color);
 }
 .button_basic{
