@@ -1,6 +1,24 @@
 <style>
 /*templates-parts/css-parts/footer-css.php*/
 /*Moduls*/
+/* image for wysiwyg */    
+.alignleft {
+	float: left;
+	margin: 7px 28px 28px 0;
+    height: auto!important;
+}
+.alignright {
+	float: right;
+	margin: 7px 0 28px 28px;
+    height: auto!important;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 7px auto;
+    height: auto!important;
+}
+/* end image for wysiwyg */    
 /*on a hover image*/
 .onAhover{
     position: relative;
